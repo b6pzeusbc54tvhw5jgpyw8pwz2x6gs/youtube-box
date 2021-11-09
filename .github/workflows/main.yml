@@ -2,6 +2,7 @@ name: Update gist with latest YouTube videos
 on:
   schedule:
     - cron: "1 */7 * * *"
+  workflow_dispatch:
   
 jobs:
   update-gist:
